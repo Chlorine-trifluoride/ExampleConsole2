@@ -12,7 +12,10 @@ namespace ExampleConsole
         {
             while (true)
             {
+                // Wait for one line input from console and store in to input variable
                 string input = Console.ReadLine();
+
+                // Print out the input variable
                 Console.WriteLine(input);
             }
         }
